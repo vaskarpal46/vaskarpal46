@@ -1,0 +1,23 @@
+:root{
+    /*background color*/
+    --primary-color:#00c9ff;
+    /* --secondary-color:#000;
+    --scrolled-color:#ffffff;
+    
+    --bg-dark-blue:#080036;
+    --bg-white:#fff;
+    --gray-color:#d1d1d1;
+    --gradient-color:linear-gradient(-224deg,var(--primary-color) 0,#337dff 100%);
+    --gradient-text:linear-gradient(120deg,#1c99fe 20.69%, #7644ff 50.19%, var(--primary-color) 79.69%);*/
+
+    /*text-color*/
+    /* --primary-font:'Poppins', sans-serif; */
+    --primary-text:#00c9ff;
+    /* --text-gray:#d1d1d1;
+    --text-orange:#ffaa00;
+    --text-white:#fff;
+    --text-wh:#fff;
+    --bg-card-red:#202020;
+    --body-color:#000;
+    --scrolled-bar:#000; */
+}

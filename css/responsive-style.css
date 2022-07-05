@@ -1,0 +1,313 @@
+@media only screen and (max-width:1400px) {
+    .home-text {
+        padding-left: 0px;
+        padding-right: 0 !important;
+    }
+    .banner_wrapper h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .banner_wrapper {
+        padding: 100px 0 50px 0;
+    }
+    .home-text {
+        padding: 0px;
+    }
+    /* .img-box img{
+            height:100%;
+            position: absolute;
+            left:25%;
+            bottom:10%;
+            transform: translateX(-50%);
+        }
+        .effect-1{
+            left: 40%;
+        }
+        .effect-3{
+            top: 39%;
+        }
+        .effect-4{
+            top: 22%;
+        } */
+    .banner_wrapper h1 {
+        font-size: 40px;
+    }
+    .home-img::after {
+        bottom: 0%;
+        right: 15%;
+    }
+    .style-switcher {
+        right: 10px;
+    }
+    .bor {
+        height: 500px;
+        width: 400px;
+        margin-top: -60px;
+    }
+    .home-imgg .fot {
+        height: 400px;
+        width: 315px;
+    }
+    .back-img {
+        right: -260px;
+    }
+    .fot {
+        height: 500px;
+        width: 400px;
+        right: 40px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    /*navbar */
+    .header-scrolled {
+        height: auto;
+    }
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--body-color);
+        padding-bottom: 15px;
+    }
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+    .banner_wrapper {
+        padding-bottom: 0;
+        padding-top: 150px;
+    }
+    .about_wrapper ul.nav-pills {
+        width: 60%;
+        margin: auto;
+    }
+    .banner_wrapper .img-box {
+        width: 30%;
+        height: 50%;
+        position: absolute;
+        bottom: 25%;
+        right: 60px;
+    }
+    .home-img {
+        display: none;
+    }
+    #line-6::before {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .portfolio_wrapper .card {
+        min-height: 400px;
+    }
+}
+
+
+/*ipad*/
+
+@media only screen and (max-width:768px) {
+    .about_wrapper .skills .skill-item {
+        flex: 0 0 100%;
+    }
+    /*custom css*/
+    section {
+        padding: 30px 0;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .effect {
+        width: 200px;
+    }
+    .effect-1 {
+        left: 37%;
+        top: 15%;
+    }
+    .effect-4 {
+        left: 37%;
+        top: 32%;
+    }
+    .effect-3 {
+        top: 48%;
+        left: 37%;
+    }
+    /*navbar */
+    .header-scrolled {
+        height: auto;
+    }
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--body-color);
+        padding-bottom: 15px;
+    }
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+    /*icon*/
+    /*banner */
+    .banner_wrapper .img-box {
+        display: none;
+    }
+    .home-img {
+        display: none;
+    }
+    /*about*/
+    .about_wrapper ul.nav-pills {
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+    .about_wrapper ul.nav-link {
+        font-size: 13px;
+    }
+    .portfolio_wrapper .card {
+        height: 500px;
+    }
+    .fot {
+        height: 700px;
+        width: 600px;
+        right: 40px;
+    }
+    .about_wrapper .timeline .timeline-item:nth-child(odd) {
+        padding-right: 15px;
+        text-align: left;
+        padding-left: 75px;
+    }
+    .about_wrapper .timeline .timeline-item:nth-child(even) {
+        padding-left: 75px;
+    }
+    .about_wrapper .timeline:before {
+        left: 35px;
+    }
+    .about_wrapper .timeline .timeline-item:nth-child(odd) .icon {
+        right: auto;
+        left: -60px;
+    }
+    .about_wrapper .timeline .timeline-item:nth-child(even) .icon {
+        left: -60px;
+    }
+    .about_wrapper .timeline .timeline-item {
+        margin-bottom: 40px;
+    }
+    .about_wrapper .timeline .timeline-item:last-child {
+        margin-bottom: 0px;
+    }
+    .about_wrapper .timeline .timeline-item:nth-child(odd) .timeline-item-inner::before {
+        left: -30px;
+        right: auto;
+    }
+    /*iphone*/
+}
+
+@media only screen and (max-width:570px) {
+    /*custom css*/
+    .row {
+        --bs-gutter-x: 0rem !important;
+    }
+    h1 {
+        font-size: 25px;
+        line-height: 48px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    #icon {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .effect {
+        width: 150px;
+    }
+    .effect-1 {
+        left: 37%;
+        top: 15%;
+    }
+    .effect-4 {
+        left: 37%;
+        top: 32%;
+    }
+    .effect-3 {
+        top: 45%;
+        left: 37%;
+        animation: none;
+    }
+    .home-img {
+        display: none;
+    }
+    /*about*/
+    .about_wrapper ul.nav-pills {
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+    .about_wrapper ul.nav-link {
+        font-size: 13px;
+    }
+    .fot {
+        height: 400px;
+        width: 330px;
+        right: 20px;
+        margin-top: 30px;
+    }
+    .portfolio_wrapper .card {
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width:451px) {
+    .banner_wrapper h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .banner_wrapper {
+        padding-left: 0;
+    }
+    .effect-1 {
+        left: 30%;
+        top: 15%;
+    }
+    .effect-4 {
+        left: 30%;
+        top: 48%;
+    }
+    .effect-3 {
+        top: 67%;
+        left: 30%;
+        animation: none;
+    }
+    h1 {
+        font-size: 25px !important;
+    }
+    .home-img {
+        display: none;
+    }
+    .fot {
+        height: 400px;
+        width: 330px;
+        right: 20px;
+        margin-top: 30px;
+    }
+}

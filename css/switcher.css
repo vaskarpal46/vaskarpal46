@@ -1,0 +1,103 @@
+.style-switcher{
+     position: fixed;
+    right: 0;
+    top:15rem;
+    padding: 20px 15px 27px 15px;
+    width: 200px;
+    /* border: 1px solid var(--bg-white); */
+    background: var(--bg-card-red);
+    z-index: 10100;
+    border-radius: 0px;
+    transition: all 0.3s ease;
+transform: translateX(100%); 
+
+
+}
+.style-switcher.open{
+    transform: translateX(-20px);
+    
+}
+.style-switcher .s-icon{
+position: absolute;
+height: 50px;
+width: 50px;
+text-align: center;
+font-size: 20px;
+ background: var(--primary-color);
+ 
+color: var(--text-wh);
+line-height:50px;
+ /* border:  1px solid var(--bg-white); */
+margin-right:0;
+cursor: pointer;
+transition: all 0.3s ease;
+border-radius:0px;
+right: 100%;
+
+
+
+}
+
+
+.style-switcher .s-icon i{
+    line-height: 40px;
+
+}
+.style-switcher .theme-icon{
+    top: 55px;
+    background: var(--bg-card-red);
+    color: var(--text-white);
+
+}
+.style-switcher .style-switcher-toggler{
+
+top: 0;
+
+}
+
+ .style-switcher  h4{
+     margin: 0 0 10px;
+     color:var(--primary-color) !important;
+     font-size: 15px;
+     font-weight: 400px;
+     white-space: nowrap;
+     width: 100%;
+     text-align: left;
+
+  
+
+ }
+ .style-switcher .colors{
+display: flex;
+cursor: pointer;
+flex-wrap: wrap;
+justify-content: space-between;
+
+ }
+ .style-switcher .colors span{
+     display: inline-block;
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     
+ }
+ .style-switcher .color-1{
+     background: #d80500;
+ }
+ .style-switcher .color-2{
+    background: #ff9500;
+}
+
+.style-switcher .color-3{
+    background: #19be00;
+}
+
+.style-switcher .color-4{
+    background: #00c9ff;
+}
+
+.style-switcher .color-5{
+    background: #f5ff00;
+}
+
+
